@@ -16,7 +16,7 @@ This is the simplest model to setup, you sping up 10 nodes in a Kubernetes clust
 We will look at the monthly cost of this scenario, and work to cost optimise this through both infrastructure scaling, as well as eventually automation.
 
 ## Cost Optimised
-In the cost optimised model we will explore cluster auto scaling and spot instances to attribute a cost per compute hour / job and compare this to the Manual model.
+In the cost optimised model we will explore cluster auto scaling, spot instances & ARM64 architecture to attribute a cost per compute hour / job and compare this to the Manual model.
 
 ## Automated and Optimised
 In this final model, we will look at scale to zero, KEDA and efficient workload placement to get the best performance for the price you pay.  The critical part of this is that the customer should see exactly the same runtime benefit (I get my ETL jobs to completion), but the cost benefit of being on-demand and efficient.
